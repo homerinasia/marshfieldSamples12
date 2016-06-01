@@ -1,0 +1,10 @@
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\consoleWebApiClient.exe.config
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\consoleWebApiClient.exe
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\consoleWebApiClient.pdb
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\Newtonsoft.Json.dll
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\System.Net.Http.Formatting.dll
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\Newtonsoft.Json.xml
+c:\src\consoleWebApiClient\consoleWebApiClient\bin\Debug\System.Net.Http.Formatting.xml
+c:\src\consoleWebApiClient\consoleWebApiClient\obj\Debug\consoleWebApiClient.csprojResolveAssemblyReference.cache
+c:\src\consoleWebApiClient\consoleWebApiClient\obj\Debug\consoleWebApiClient.exe
+c:\src\consoleWebApiClient\consoleWebApiClient\obj\Debug\consoleWebApiClient.pdb

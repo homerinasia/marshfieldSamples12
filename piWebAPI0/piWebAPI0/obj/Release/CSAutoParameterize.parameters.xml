@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="tempEntities-Web.config Connection String" description="tempEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/houseTemp.csdl|res://*/houseTemp.ssdl|res://*/houseTemp.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=ncryzxvg04.database.windows.net;initial catalog=jmhtestANcq7Btzo;persist security info=True;user id=user00;password=Pa$$w0rd;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\src\\piWebAPI0\\piWebAPI0\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='tempEntities']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,5 @@
+c:\src\clsGetDS\clsGetDS\bin\Debug\clsGetDS.dll
+c:\src\clsGetDS\clsGetDS\bin\Debug\clsGetDS.pdb
+c:\src\clsGetDS\clsGetDS\obj\Debug\clsGetDS.csprojResolveAssemblyReference.cache
+c:\src\clsGetDS\clsGetDS\obj\Debug\clsGetDS.dll
+c:\src\clsGetDS\clsGetDS\obj\Debug\clsGetDS.pdb

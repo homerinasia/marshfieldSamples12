@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pubsModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="pubsModelStoreContainer">
+    <EntitySet Name="publishers" EntityType="pubsModel.Store.publishers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sales" EntityType="pubsModel.Store.sales" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="titles" EntityType="pubsModel.Store.titles" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__sales__title_id__24927208" Association="pubsModel.Store.FK__sales__title_id__24927208">
+      <End Role="titles" EntitySet="titles" />
+      <End Role="sales" EntitySet="sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__titles__pub_id__1A14E395" Association="pubsModel.Store.FK__titles__pub_id__1A14E395">
+      <End Role="publishers" EntitySet="publishers" />
+      <End Role="titles" EntitySet="titles" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="publishers">
+    <Key>
+      <PropertyRef Name="pub_id" />
+    </Key>
+    <Property Name="pub_id" Type="nchar" Nullable="false" MaxLength="4" />
+    <Property Name="pub_name" Type="nvarchar" MaxLength="40" />
+    <Property Name="city" Type="nvarchar" MaxLength="20" />
+    <Property Name="state" Type="nchar" MaxLength="2" />
+    <Property Name="country" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="sales">
+    <Key>
+      <PropertyRef Name="stor_id" />
+      <PropertyRef Name="ord_num" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="stor_id" Type="nchar" Nullable="false" MaxLength="4" />
+    <Property Name="ord_num" Type="nvarchar" Nullable="false" MaxLength="20" />
+    <Property Name="ord_date" Type="datetime" Nullable="false" />
+    <Property Name="qty" Type="smallint" Nullable="false" />
+    <Property Name="payterms" Type="nvarchar" Nullable="false" MaxLength="12" />
+    <Property Name="title_id" Type="nvarchar" Nullable="false" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="titles">
+    <Key>
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="title_id" Type="nvarchar" Nullable="false" MaxLength="6" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="80" />
+    <Property Name="type" Type="nchar" Nullable="false" MaxLength="12" />
+    <Property Name="pub_id" Type="nchar" MaxLength="4" />
+    <Property Name="price" Type="money" />
+    <Property Name="advance" Type="money" />
+    <Property Name="royalty" Type="int" />
+    <Property Name="ytd_sales" Type="int" />
+    <Property Name="pubdate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__sales__title_id__24927208">
+    <End Role="titles" Type="pubsModel.Store.titles" Multiplicity="1" />
+    <End Role="sales" Type="pubsModel.Store.sales" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="sales">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__titles__pub_id__1A14E395">
+    <End Role="publishers" Type="pubsModel.Store.publishers" Multiplicity="0..1" />
+    <End Role="titles" Type="pubsModel.Store.titles" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="titles">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

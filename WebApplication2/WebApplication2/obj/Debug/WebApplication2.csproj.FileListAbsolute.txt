@@ -1,0 +1,6 @@
+c:\src\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+c:\src\WebApplication2\WebApplication2\bin\WebApplication2.dll
+c:\src\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+c:\src\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+c:\src\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+c:\src\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

@@ -1,0 +1,27 @@
+C:\tmp\owin0\OWINTest\bin\Debug\OWINTest.exe.config
+C:\tmp\owin0\OWINTest\bin\Debug\OWINTest.exe
+C:\tmp\owin0\OWINTest\bin\Debug\OWINTest.pdb
+C:\tmp\owin0\OWINTest\bin\Debug\Newtonsoft.Json.dll
+C:\tmp\owin0\OWINTest\bin\Debug\System.Net.Http.Formatting.dll
+C:\tmp\owin0\OWINTest\bin\Debug\Newtonsoft.Json.xml
+C:\tmp\owin0\OWINTest\bin\Debug\System.Net.Http.Formatting.xml
+C:\tmp\owin0\OWINTest\obj\Debug\OWINTest.csprojResolveAssemblyReference.cache
+C:\tmp\owin0\OWINTest\obj\Debug\OWINTest.csproj.OWINTest.exe.config
+C:\tmp\owin0\OWINTest\obj\Debug\OWINTest.exe
+C:\tmp\owin0\OWINTest\obj\Debug\OWINTest.pdb
+C:\tmp\owin0 - Copy\OWINTest\bin\Debug\OWINTest.exe.config
+C:\tmp\owin0 - Copy\OWINTest\obj\Debug\OWINTest.exe
+C:\tmp\owin0 - Copy\OWINTest\obj\Debug\OWINTest.pdb
+C:\temp\OWINTest\bin\Debug\OWINTest.exe.config
+C:\temp\OWINTest\obj\Debug\OWINTest.exe
+C:\temp\OWINTest\obj\Debug\OWINTest.pdb
+C:\src\OWINTestClient\bin\Debug\OWINTest.exe.config
+C:\src\OWINTestClient\obj\Debug\OWINTest.exe
+C:\src\OWINTestClient\obj\Debug\OWINTest.pdb
+C:\src\OWINTestClient\bin\Debug\OWINTest.exe
+C:\src\OWINTestClient\bin\Debug\OWINTest.pdb
+C:\src\OWINTestClient\bin\Debug\Newtonsoft.Json.dll
+C:\src\OWINTestClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\src\OWINTestClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\src\OWINTestClient\obj\Debug\OWINTest.csprojResolveAssemblyReference.cache
+C:\src\OWINTestClient\obj\Debug\OWINTest.csproj.OWINTest.exe.config

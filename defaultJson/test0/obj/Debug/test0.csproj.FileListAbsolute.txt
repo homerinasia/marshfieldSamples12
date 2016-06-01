@@ -1,0 +1,12 @@
+c:\src\test0\test0\bin\Debug\test0.dll.config
+c:\src\test0\test0\bin\Debug\test0.dll
+c:\src\test0\test0\bin\Debug\test0.pdb
+c:\src\test0\test0\obj\Debug\test0.csprojResolveAssemblyReference.cache
+c:\src\test0\test0\obj\Debug\test0.dll
+c:\src\test0\test0\obj\Debug\test0.pdb
+C:\src\defaultJson\test0\bin\Debug\test0.dll.config
+C:\src\defaultJson\test0\bin\Debug\test0.dll
+C:\src\defaultJson\test0\bin\Debug\test0.pdb
+C:\src\defaultJson\test0\obj\Debug\test0.csprojResolveAssemblyReference.cache
+C:\src\defaultJson\test0\obj\Debug\test0.dll
+C:\src\defaultJson\test0\obj\Debug\test0.pdb

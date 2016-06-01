@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>json test</title>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script>
+        // {"Id":2,"Name":"fred"}
+
+    var data;
+    $(document).ready(function () {
+        $("#getJson").click(btnGetClicked);
+        $("#postJson").click(btnPostClicked);
+        $("#getJsonFromWebAPI").click(btnwebAPIGetClicked);
+    });
+       
+    function btnGetClicked(){
+        $.ajax({
+            url: "http://localhost:8733/Design_Time_Addresses/test0/Service1/getPersonById/2",
+            type: "GET",
+            headers: { "accept": "application/json;odata=verbose" },
+            success: function (data) {
+                alert(data.Name);
+            },
+            error: function (err) {
+                alert(JSON.stringify(err));
+            }
+        });
+    }
+
+
+    function btnwebAPIGetClicked() {
+        $.ajax({
+            //url: "http://localhost:49244/api/products/2",
+            //url: "http://piwebapi020160503084421.azurewebsites.net/api/housetemps",
+            url: "http://localhost:49533/api/houseTemps",
+            type: "GET",
+            headers: { "accept": "application/json;odata=verbose" },
+            success: function (data) {
+                alert(data.Name);
+            },
+            error: function (err) {
+                alert(JSON.stringify(err));
+            }
+        });
+    }
+
+    function btnPostClicked() {
+        $.support.cors = true;
+        
+        $.ajax({            
+            type: "POST",
+            url: "http://localhost:8733/Design_Time_Addresses/test0/Service1/makePerson",
+            data: "3",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            headers: { "Access-Control-Allow-Origin": "*" },
+            success: function (data) {
+                alert(data.Name + data.Id);
+            },
+            error: function (err) {
+                alert(JSON.stringify(err));
+            }
+        });
+    }
+
+        
+
+    </script>
+
+</head>
+<body>
+    <input id="getJson" type="button" value="button" /><p></p>
+    <input id="Text1" type="text" /><p></p>
+    <input id="postJson" type="button" value="button" />
+    <p></p><input id="getJsonFromWebAPI" type="button" value="button" /><p></p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pubsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="titles">
+    <Key>
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="title_id" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="80" Nullable="false" />
+    <Property Name="type" Type="nchar" MaxLength="12" Nullable="false" />
+    <Property Name="pub_id" Type="nchar" MaxLength="4" />
+    <Property Name="price" Type="money" />
+    <Property Name="advance" Type="money" />
+    <Property Name="royalty" Type="int" />
+    <Property Name="ytd_sales" Type="int" />
+    <Property Name="pubdate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="pubsModelStoreContainer">
+    <EntitySet Name="titles" EntityType="Self.titles" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

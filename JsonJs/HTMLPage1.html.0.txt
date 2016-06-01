@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>json test</title>
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script>
+        // {"Id":2,"Name":"fred"}
+
+    var data;
+    $(document).ready(function () {
+        $("#getJson").click(btnGetClicked);
+        $("#postJson").click(btnPostClicked);
+    });
+       
+    function btnGetClicked(){
+        $.ajax({
+            url: "http://localhost:8733/Design_Time_Addresses/test0/Service1/getPersonById/2",
+            type: "GET",
+            headers: { "accept": "application/json;odata=verbose" },
+            success: function (data) {
+                alert(data.Name);
+            },
+            error: function (err) {
+                alert(JSON.stringify(err));
+            }
+        });
+
+    }
+
+    function btnPostClicked() {
+        var id = 2;
+        $.ajax({
+            url: "http://localhost:8733/Design_Time_Addresses/test0/Service1/makePerson",
+            type: "POST",
+            data:JSON.stringify( { Id:id }),
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+                alert(data.Name);
+            },
+            error: function (err) {
+                alert(JSON.stringify(err));
+            }
+        });
+    }
+
+        
+
+    </script>
+
+</head>
+<body>
+    <input id="getJson" type="button" value="button" /><p></p>
+    <input id="Text1" type="text" /><p></p>
+    <input id="postJson" type="button" value="button" />
+</body>
+</html>

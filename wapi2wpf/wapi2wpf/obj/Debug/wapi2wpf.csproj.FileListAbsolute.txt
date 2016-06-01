@@ -1,0 +1,17 @@
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\wapi2wpf.exe.config
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\wapi2wpf.exe
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\wapi2wpf.pdb
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.csprojResolveAssemblyReference.cache
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\MainWindow.baml
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\MainWindow.g.cs
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\App.g.cs
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf_MarkupCompile.cache
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.g.resources
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.Properties.Resources.resources
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.csproj.GenerateResource.Cache
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.exe
+c:\src\wapi2wpf\wapi2wpf\obj\Debug\wapi2wpf.pdb
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\Newtonsoft.Json.dll
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\System.Net.Http.Formatting.dll
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\Newtonsoft.Json.xml
+c:\src\wapi2wpf\wapi2wpf\bin\Debug\System.Net.Http.Formatting.xml

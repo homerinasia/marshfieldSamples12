@@ -1,0 +1,6 @@
+c:\src\ioc0\ioc0\bin\Debug\ioc0.exe.config
+c:\src\ioc0\ioc0\obj\Debug\ioc0.csprojResolveAssemblyReference.cache
+c:\src\ioc0\ioc0\bin\Debug\ioc0.exe
+c:\src\ioc0\ioc0\bin\Debug\ioc0.pdb
+c:\src\ioc0\ioc0\obj\Debug\ioc0.exe
+c:\src\ioc0\ioc0\obj\Debug\ioc0.pdb

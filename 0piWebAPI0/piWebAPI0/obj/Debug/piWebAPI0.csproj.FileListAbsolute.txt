@@ -1,0 +1,10 @@
+c:\src\piWebAPI0\piWebAPI0\bin\piWebAPI0.dll.config
+c:\src\piWebAPI0\piWebAPI0\bin\piWebAPI0.dll
+c:\src\piWebAPI0\piWebAPI0\bin\piWebAPI0.pdb
+c:\src\piWebAPI0\piWebAPI0\obj\Debug\piWebAPI0.csprojResolveAssemblyReference.cache
+c:\src\piWebAPI0\piWebAPI0\obj\Debug\piWebAPI0.dll
+c:\src\piWebAPI0\piWebAPI0\obj\Debug\piWebAPI0.pdb
+c:\src\piWebAPI0\piWebAPI0\bin\EntityFramework.dll
+c:\src\piWebAPI0\piWebAPI0\bin\EntityFramework.SqlServer.dll
+c:\src\piWebAPI0\piWebAPI0\bin\EntityFramework.xml
+c:\src\piWebAPI0\piWebAPI0\bin\EntityFramework.SqlServer.xml

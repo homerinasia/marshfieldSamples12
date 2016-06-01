@@ -1,0 +1,6 @@
+c:\src\HelloWorld\HelloWorldClient\bin\Debug\HelloWorldClient.exe.config
+c:\src\HelloWorld\HelloWorldClient\bin\Debug\HelloWorldClient.exe
+c:\src\HelloWorld\HelloWorldClient\bin\Debug\HelloWorldClient.pdb
+c:\src\HelloWorld\HelloWorldClient\obj\Debug\HelloWorldClient.csprojResolveAssemblyReference.cache
+c:\src\HelloWorld\HelloWorldClient\obj\Debug\HelloWorldClient.exe
+c:\src\HelloWorld\HelloWorldClient\obj\Debug\HelloWorldClient.pdb

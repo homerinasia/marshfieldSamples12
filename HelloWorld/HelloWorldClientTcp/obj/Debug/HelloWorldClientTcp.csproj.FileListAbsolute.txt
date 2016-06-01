@@ -1,0 +1,6 @@
+C:\src\HelloWorld\HelloWorldClientTcp\bin\Debug\HelloWorldClientTcp.exe.config
+C:\src\HelloWorld\HelloWorldClientTcp\bin\Debug\HelloWorldClientTcp.exe
+C:\src\HelloWorld\HelloWorldClientTcp\bin\Debug\HelloWorldClientTcp.pdb
+C:\src\HelloWorld\HelloWorldClientTcp\obj\Debug\HelloWorldClientTcp.csprojResolveAssemblyReference.cache
+C:\src\HelloWorld\HelloWorldClientTcp\obj\Debug\HelloWorldClientTcp.exe
+C:\src\HelloWorld\HelloWorldClientTcp\obj\Debug\HelloWorldClientTcp.pdb

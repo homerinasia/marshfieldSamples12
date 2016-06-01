@@ -1,0 +1,8 @@
+C:\src\HelloWorld\HostCmdLineApp\bin\Debug\HostCmdLineApp.exe.config
+C:\src\HelloWorld\HostCmdLineApp\bin\Debug\HostCmdLineApp.exe
+C:\src\HelloWorld\HostCmdLineApp\bin\Debug\HostCmdLineApp.pdb
+C:\src\HelloWorld\HostCmdLineApp\obj\Debug\HostCmdLineApp.csprojResolveAssemblyReference.cache
+C:\src\HelloWorld\HostCmdLineApp\obj\Debug\HostCmdLineApp.exe
+C:\src\HelloWorld\HostCmdLineApp\obj\Debug\HostCmdLineApp.pdb
+C:\src\HelloWorld\HostCmdLineApp\bin\Debug\HelloWorldService.dll
+C:\src\HelloWorld\HostCmdLineApp\bin\Debug\HelloWorldService.pdb

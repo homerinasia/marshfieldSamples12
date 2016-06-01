@@ -1,0 +1,12 @@
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+c:\src\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+c:\src\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+c:\src\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Castle.Core.dll
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.dll
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Sinch.ServerSdk.dll
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Sinch.WebApiClient.dll
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Castle.Core.xml
+c:\src\ConsoleApplication1\ConsoleApplication1\bin\Debug\Newtonsoft.Json.xml

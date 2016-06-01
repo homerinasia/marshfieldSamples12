@@ -1,0 +1,10 @@
+﻿<Window x:Class="wapi2wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Name="btn0"  Content="Button" HorizontalAlignment="Left" Height="46" Margin="29,28,0,0" VerticalAlignment="Top" Width="166" Click="Button_Click"/>
+        <DataGrid Name="dg0" HorizontalAlignment="Left" Height="150" Margin="42,115,0,0" VerticalAlignment="Top" Width="340"/>
+
+    </Grid>
+</Window>

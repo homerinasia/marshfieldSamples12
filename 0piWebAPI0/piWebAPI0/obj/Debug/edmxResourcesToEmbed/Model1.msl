@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="jmhtestANcq7BtzoModelStoreContainer" CdmEntityContainer="jmhtestANcq7BtzoEntities">
+    <EntitySetMapping Name="houseTemps">
+      <EntityTypeMapping TypeName="jmhtestANcq7BtzoModel.houseTemp">
+        <MappingFragment StoreEntitySet="houseTemp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="tds" ColumnName="tds" />
+          <ScalarProperty Name="tempF" ColumnName="tempF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

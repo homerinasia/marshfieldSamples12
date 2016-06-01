@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="pubsModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="pubsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="publishers" EntityType="pubsModel.publisher" />
+    <EntitySet Name="sales" EntityType="pubsModel.sale" />
+    <EntitySet Name="titles" EntityType="pubsModel.title" />
+    <AssociationSet Name="FK__titles__pub_id__1A14E395" Association="pubsModel.FK__titles__pub_id__1A14E395">
+      <End Role="publishers" EntitySet="publishers" />
+      <End Role="titles" EntitySet="titles" />
+    </AssociationSet>
+    <AssociationSet Name="FK__sales__title_id__24927208" Association="pubsModel.FK__sales__title_id__24927208">
+      <End Role="titles" EntitySet="titles" />
+      <End Role="sales" EntitySet="sales" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="publisher">
+    <Key>
+      <PropertyRef Name="pub_id" />
+    </Key>
+    <Property Name="pub_id" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="true" />
+    <Property Name="pub_name" Type="String" MaxLength="40" Unicode="true" FixedLength="false" />
+    <Property Name="city" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="state" Type="String" MaxLength="2" Unicode="true" FixedLength="true" />
+    <Property Name="country" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="titles" Relationship="pubsModel.FK__titles__pub_id__1A14E395" FromRole="publishers" ToRole="titles" />
+  </EntityType>
+  <EntityType Name="sale">
+    <Key>
+      <PropertyRef Name="stor_id" />
+      <PropertyRef Name="ord_num" />
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="stor_id" Type="String" Nullable="false" MaxLength="4" Unicode="true" FixedLength="true" />
+    <Property Name="ord_num" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="ord_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="qty" Type="Int16" Nullable="false" />
+    <Property Name="payterms" Type="String" Nullable="false" MaxLength="12" Unicode="true" FixedLength="false" />
+    <Property Name="title_id" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="title" Relationship="pubsModel.FK__sales__title_id__24927208" FromRole="sales" ToRole="titles" />
+  </EntityType>
+  <EntityType Name="title">
+    <Key>
+      <PropertyRef Name="title_id" />
+    </Key>
+    <Property Name="title_id" Type="String" Nullable="false" MaxLength="6" Unicode="true" FixedLength="false" />
+    <Property Name="title1" Type="String" Nullable="false" MaxLength="80" Unicode="true" FixedLength="false" />
+    <Property Name="type" Type="String" Nullable="false" MaxLength="12" Unicode="true" FixedLength="true" />
+    <Property Name="pub_id" Type="String" MaxLength="4" Unicode="true" FixedLength="true" />
+    <Property Name="price" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="advance" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="royalty" Type="Int32" />
+    <Property Name="ytd_sales" Type="Int32" />
+    <Property Name="pubdate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="publisher" Relationship="pubsModel.FK__titles__pub_id__1A14E395" FromRole="titles" ToRole="publishers" />
+    <NavigationProperty Name="sales" Relationship="pubsModel.FK__sales__title_id__24927208" FromRole="titles" ToRole="sales" />
+  </EntityType>
+  <Association Name="FK__titles__pub_id__1A14E395">
+    <End Role="publishers" Type="pubsModel.publisher" Multiplicity="0..1" />
+    <End Role="titles" Type="pubsModel.title" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="publishers">
+        <PropertyRef Name="pub_id" />
+      </Principal>
+      <Dependent Role="titles">
+        <PropertyRef Name="pub_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__sales__title_id__24927208">
+    <End Role="titles" Type="pubsModel.title" Multiplicity="1" />
+    <End Role="sales" Type="pubsModel.sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="titles">
+        <PropertyRef Name="title_id" />
+      </Principal>
+      <Dependent Role="sales">
+        <PropertyRef Name="title_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
